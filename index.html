@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Basics Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Python Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Hello_World">Hello World</a>
+        <a class="nav-link" href="#Variables_and_Types">Variables and Types</a>
+        <a class="nav-link" href="#Control_Flow">Control Flow</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Python is a high-level, interpreted programming language known for its ease of use and readability. It emphasizes code readability with its notable use of significant whitespace.</p>
+            <p>Its language core and libraries provide tools suited for many tasks, including web development, data analysis, machine learning, and automation.</p>
+        </section>
+
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <p>To get started with Python, the traditional first step is to print a "Hello, World!" message to the console. This verifies that your environment is correctly set up.</p>
+            <p>In Python, this requires just a single line of code, utilizing the built-in print function:</p>
+            <code>print("Hello, World!")</code>
+        </section>
+
+        <section class="main-section" id="Variables_and_Types">
+            <header>Variables and Types</header>
+            <p>Python is dynamically typed, meaning you do not need to explicitly declare data types when creating variables. The interpreter infers the type automatically at runtime.</p>
+            <code>x = 5</code>
+            <code>name = "Alice"</code>
+            <p>Here are some of the most common standard data types built into Python:</p>
+            <ul>
+                <li><strong>Int:</strong> Integer numbers (e.g., 5, -3)</li>
+                <li><strong>Float:</strong> Floating-point numbers (e.g., 3.14, -0.5)</li>
+                <li><strong>Str:</strong> Strings of characters (e.g., "Hello")</li>
+                <li><strong>Bool:</strong> Boolean values (True or False)</li>
+                <li><strong>List:</strong> Ordered mutable sequences</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Control_Flow">
+            <header>Control Flow</header>
+            <p>Python uses standard conditional statements like if, elif, and else to control the flow of execution based on specific evaluations.</p>
+            <p>Unlike languages that use curly braces, Python relies heavily on indentation to define code blocks:</p>
+            <pre><code>if x > 0:
+    print("Positive")
+else:
+    print("Zero or Negative")</code></pre>
+        </section>
+
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>Functions help break our code into smaller, reusable pieces. They block out logic that only runs when explicitly invoked.</p>
+            <p>In Python, functions are defined using the def keyword followed by the function name and parentheses:</p>
+            <pre><code>def greet(user):
+    return "Hello, " + user</code></pre>
+        </section>
+    </main>
+</body>
+</html>
